@@ -7,7 +7,7 @@ only the Python standard library.
 
 ## Results
 
-CoPTS-GPU performed 6 independent runs of 120 s on each instance (720 runs). The reference value of an
+CoPTS-GPU performed 10 independent runs of 120 s on each instance (1200 runs). The reference value of an
 instance is the best value reported for it under the integer programming model of the KPF
 (`data/reference_values.csv`). The best value of CoPTS-GPU exceeds the reference value on 5 instances,
 equals it on 101 and is below it on 14, and it attains the proven optimum on all 19 instances whose
@@ -53,8 +53,8 @@ python -m unittest discover -s scripts
 On the six instances of sets LK and MF with n of at least 800 on which the best value of CoPTS-GPU is below the
 reference value, exact problems examine the neighbourhood of its best solution. Each one asks HiGHS for a solution
 within Hamming distance r of the best solution, with all items free, whose value is higher; when HiGHS proves the
-problem infeasible, no such solution exists. `data/certificates/certificates.csv` lists the 33 problems
-solved, with radius 14 certified on all six instances, and `scripts/certificate.py` reproduces them:
+problem infeasible, no such solution exists. `data/certificates/certificates.csv` lists the 43 problems
+solved, with radius 16 certified on all six instances, and `scripts/certificate.py` reproduces them:
 
 ```sh
 python -m pip install -r requirements.txt

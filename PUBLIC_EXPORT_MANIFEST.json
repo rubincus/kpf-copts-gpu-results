@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-09-25T00:02:46Z",
+ "exported_at": "2026-09-25T12:55:11Z",
  "campaign": {
   "seeds": [
    1,
@@ -7,32 +7,36 @@
    3,
    4,
    5,
-   6
+   6,
+   7,
+   8,
+   9,
+   10
   ],
-  "runs": 720,
+  "runs": 1200,
   "config_hashes": [
    "1c18d0fb12",
    "fd1de7da4c"
   ]
  },
  "runs_per_experiment": {
-  "campaign": 720,
+  "campaign": 1200,
   "ablation": 144,
   "late_ablation": 70,
   "sensitivity": 432,
   "design_study": 60,
   "enumeration_benchmark": 24,
-  "certificates": 33
+  "certificates": 43
  },
  "files": {
   ".gitattributes": "f816bc9bd401a2219f98a517f6b8ec52cb3cc433523a7c2d395e0a8fe856bf3d",
   ".gitignore": "9dc39e0f77a1ffb2ad489e3f08861e5dc7e6a2491feeb584fa79c95f5a173cfb",
   "data/ablation/runs.csv": "da9d878041044c582bfacd59198c69b207f504e529f6c5be659dac1df5ba9686",
   "data/ablation/traces.csv": "b2fbbe8132d1e82f8e8f3627a3440c77d0fc1a36a8d856b90ac36a704233d198",
-  "data/campaign/runs.csv": "795ef43139c9fe2b5fe69189bbd93e733d6fe9347efed5d298a8a0a5261f3f9f",
-  "data/campaign/summary.csv": "e3e32cec0af3a39b370e5a00f4a410f25c0af9c4b438800c593b4928233d1f60",
-  "data/campaign/traces.csv": "12dcb8e3a19eb62d096d4175313eaee8fdfc7672ec98a49da2c063cf4c2f0372",
-  "data/certificates/certificates.csv": "fd76ab98e49cf8188ccc189eba08f5f546c3b655ef826538b75f513a50d0ca89",
+  "data/campaign/runs.csv": "ed37d23f26ef41ce74b55ce0fd0fc54767d47989d2b1d5a901ee8ac253fef160",
+  "data/campaign/summary.csv": "bf9bcff33152e118a4ef097a9f67694424af873757d49f6e1b09786f3429ae7d",
+  "data/campaign/traces.csv": "994dc78497d6f1763b5bae43bc3456573fc35c08fbfbfed2dbba9d7dc4c8558a",
+  "data/certificates/certificates.csv": "62c6721da1a299155a24a41a11727fba73ec89d324632afcffa20c70758a5d8f",
   "data/design_study/runs.csv": "2d52c6447a6d5f1d4c80780c970cb4697133cc07889024a72df13dc50e582226",
   "data/design_study/traces.csv": "e263c7362ca6f32df10eb2005a4c5e20e014a1cb67085a2235da8d18ed7408e3",
   "data/enumeration_benchmark/runs.csv": "a0e0d8d2dd05670c0388ee0b4131de56dea4cec8e30fb844bd3933775e77ed94",
@@ -45,7 +49,7 @@
   "data/sensitivity/runs.csv": "0fab450064dbe440f2f8ee64be02ce8dd0f34de9a19ad0fc6e35eb5ee954ce2c",
   "data/sensitivity/traces.csv": "69c3a56f99d10f18e0b0c8006687105c5536d6e5cbbe9fc7d71ee0ec30ebfbf8",
   "data/variants.csv": "932cfd61a34808460df8e792d67ef50f951acafd2dd6c3cea57bc773555bd98f",
-  "README.md": "2aa1857799b7f2e81e8aea166de6c663a46b7415c6feacfb0a8e818db85059bc",
+  "README.md": "c49afb0568b937e33fa73690928a3615ac80fb4d2cbda3a3a0173d715d9d42f6",
   "requirements.txt": "4162641ffa3343fff17ab6c70da62db652eb404d16f615f5ca6afabe8e4a675c",
   "scripts/certificate.py": "96db593e6ccd8f13a26ef41c1edb1af18ed61851ac7a6c5df8f26bfe76254ec8",
   "scripts/download_instances.py": "432de1f2bd22f1fa041ee0e56ed8111d33766a70f2838aa852b1382588ea65f2",
@@ -173,7 +177,7 @@
   "solutions/best/O_800_08.json": "771fc7d08b04d4430707ccd240c05a8e33ea594d132f4db2be09852e8a316458",
   "solutions/best/O_800_09.json": "806c8c55dfce218fb4156f2afb92ec4dbcbc7b1d0377b93a2a177fdd0a5211a4",
   "solutions/best/O_800_10.json": "c64d635bcd6aa9886b433e73861f599423a10e671cde838b151b119ab1266635",
-  "solutions/campaign.csv": "80c9c453a289c4b149151a885d89dcdb397218ac05259e7ef5544de31bff2724",
+  "solutions/campaign.csv": "cd304d15807c7fd1fb876ec016d26762e5536bf491acdfdbc62f7240367c18c9",
   "solutions/certificate_centers.csv": "3d4486b7e3e0a4614ea44ee3cfbf9afc36f71ad513ccb09e0e518977324c5338",
   "solutions/design_study.csv": "e11ba07b004ac3f9a62684742f0e5fd48ae808e18921ffc2072415f2fc83446f",
   "solutions/late_ablation.csv": "85b5973756f781b1c8a3988064dd5c8aa988bcdad71cc173719ce019a2b7202d",
