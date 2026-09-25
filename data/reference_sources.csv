@@ -19,3 +19,4 @@ ilsvnd_published_avg,,"average over the runs, published values",
 mfss_published_avg,,"average over the runs, published values",
 rldcss_published_avg,,"average over the runs, published values",
 cucss_avg,,"average over the runs, published values",
+hesm_published,,"HESM, best value published for the instance; not a source of the reference value (Section 5 of the manuscript), and part of the criterion for a new best-known value","Zhou, Hao, Jiang and Wu (2025)"

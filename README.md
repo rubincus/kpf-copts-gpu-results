@@ -11,17 +11,19 @@ CoPTS-GPU performed 10 independent runs of 120 s on each instance (1200 runs). T
 instance is the best value reported for it under the integer programming model of the KPF
 (`data/reference_values.csv`). The best value of CoPTS-GPU exceeds the reference value on 5 instances,
 equals it on 101 and is below it on 14, and it attains the proven optimum on all 19 instances whose
-optimum was proven by CPLEX. New best-known values:
+optimum was proven by CPLEX. On 4 of the 5 instances on which it exceeds the reference value, the
+value of CoPTS-GPU also exceeds every value published for the instance, including the one published for HESM, and it
+is a new best-known value:
 
-| Instance | Reference value | CoPTS-GPU |
+| Instance | Highest published value | CoPTS-GPU |
 |---|---:|---:|
 | O_1000_02 | 4994 | 4995 |
 | O_1000_04 | 5144 | 5147 |
 | LK_1000_02 | 5164 | 5167 |
 | MF_1000_04 | 4598 | 4599 |
-| MF_1000_10 | 4672 | 4674 |
 
-Per-instance results are in `data/campaign/summary.csv`.
+On MF_1000_10, the value 4674 of CoPTS-GPU exceeds the reference value 4672, and the value published for HESM is 4678. Per-instance results, with the highest published value and the new best-known values, are in
+`data/campaign/summary.csv`.
 
 ## Verify the solutions
 

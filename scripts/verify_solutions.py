@@ -230,11 +230,13 @@ def check_summary(rep, runs, ref):
             rep.failed("data/campaign/summary.csv", f"{name}: no campaign runs")
             continue
         r = int(ref[name]["reference_value"])
+        top = max(r, int(ref[name]["hesm_published"]))       # highest published value, HESM included
         best, mean = max(v), sum(v) / len(v)
         sd = math.sqrt(sum((x - mean) ** 2 for x in v) / len(v))
         status = "improved" if best > r else ("equal" if best == r else "below")
         expect = dict(runs=len(v), best=best, runs_at_best=v.count(best), runs_at_or_above_reference=sum(x >= r for x in v),
-                      reference_value=r, best_minus_reference=best - r)
+                      reference_value=r, best_minus_reference=best - r, highest_published_value=top,
+                      new_best_known=int(best > top))
         bad = [k for k, e in expect.items() if int(row[k]) != e]
         if abs(float(row["mean"]) - mean) > 6e-5 or abs(float(row["sd"]) - sd) > 6e-5:
             bad.append("mean or sd")
