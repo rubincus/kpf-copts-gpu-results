@@ -1,0 +1,4 @@
+# benchmark instances, downloaded by scripts/download_instances.py
+instances/
+__pycache__/
+*.pyc

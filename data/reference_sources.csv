@@ -1,0 +1,21 @@
+column,group,description,source
+cplex_3h,C,"CPLEX with a time limit of 3 h, as reported by Zhou, Hao, Jiang and Wu (2025)",Capobianco et al. (2022)
+cplex_3h_cucss_study,C,"CPLEX with a time limit of 3 h, as reported in the study of CuCSS","Zhou, Luo, Zhao and Song (2026)"
+carousel_greedy,G,"carousel greedy, as reported by Zhou, Hao, Jiang and Wu (2025)",Capobianco et al. (2022)
+ga_cg,G,"GA-CG, as reported by Zhou, Hao, Jiang and Wu (2025)",Capobianco et al. (2022)
+ga_cg_cucss_study,G,"GA-CG, as reported in the study of CuCSS","Zhou, Luo, Zhao and Song (2026)"
+best_known_before_2024,G,"best-known value before 2024, as listed by Zhou, Hao, Jiang and Wu (2025)","Zhou, Hao, Jiang and Wu (2025)"
+ilsvnd_published,I,"ILS-VND, best of 50 runs of 10 s, published values",Vieira (2023)
+mfss_published,M,"MFSS, best of 10 runs of 600 s, published values",Jovanovic and Voss (2024)
+rldcss_published,R,"RL-DCSS, best of 10 runs of 600 s, published values",Zhao and Hifi (2024)
+hdm_ilsvnd,H,"HDM-ILS-VND, best value",Souto de Jesus Augusto (2025)
+ilsvnd_rerun_hdm_study,H,"ILS-VND, rerun in the study of HDM-ILS-VND",Souto de Jesus Augusto (2025)
+best_known_cucss_study,Z,best-known column of the study of CuCSS,"Zhou, Luo, Zhao and Song (2026)"
+ilsvnd_rerun_cucss_study,Z,"ILS-VND, best of 10 runs of 600 s, rerun in the study of CuCSS","Zhou, Luo, Zhao and Song (2026)"
+mfss_rerun_cucss_study,Z,"MFSS, best of 10 runs of 600 s, rerun in the study of CuCSS","Zhou, Luo, Zhao and Song (2026)"
+rldcss_rerun_cucss_study,Z,"RL-DCSS, best of 10 runs of 600 s, rerun in the study of CuCSS","Zhou, Luo, Zhao and Song (2026)"
+cucss,Z,"CuCSS, best of 10 runs of 600 s","Zhou, Luo, Zhao and Song (2026)"
+ilsvnd_published_avg,,"average over the runs, published values",
+mfss_published_avg,,"average over the runs, published values",
+rldcss_published_avg,,"average over the runs, published values",
+cucss_avg,,"average over the runs, published values",

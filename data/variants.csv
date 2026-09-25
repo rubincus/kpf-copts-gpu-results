@@ -1,0 +1,30 @@
+experiment,variant,description,budget_s
+campaign,default,default configuration of the manuscript,120
+ablation,abl_nocoop,no cooperation at epoch boundaries,120
+ablation,abl_norestart,no perturbed restarts (ς = ∞),120
+ablation,abl_oneregime,"one penalty regime, (τ, β0) = (2, 1)",120
+ablation,abl_noarchive,no archive (parents from the elite walkers),120
+late_ablation,late_norestart,no perturbed restarts,120
+late_ablation,late_noarchive,no archive,120
+sensitivity,sens_B512,walkers B = 512 (default 1024),60
+sensitivity,sens_B2048,walkers B = 2048 (default 1024),60
+sensitivity,sens_L500,epoch length L = 500 (default 2000),60
+sensitivity,sens_L8000,epoch length L = 8000 (default 2000),60
+sensitivity,sens_stall1250,restart threshold ς = 1250 (default 5000),60
+sensitivity,sens_stall20000,restart threshold ς = 20000 (default 5000),60
+sensitivity,sens_rho025,reinitialized share ρ = 0.25 (default 0.5),60
+sensitivity,sens_rho075,reinitialized share ρ = 0.75 (default 0.5),60
+sensitivity,sens_pert05,restart strength k_b/n ×0.5,60
+sensitivity,sens_pert2,restart strength k_b/n ×2,60
+sensitivity,sens_ten7,"tabu tenures T_b 7, 14, 21 (default 15, 30, 45)",60
+sensitivity,sens_ten30,"tabu tenures T_b 30, 60, 90 (default 15, 30, 45)",60
+design_study,v6_pr,path relinking in half of the reseeding,120
+design_study,v6_gen,population restarts after 20 stagnant epochs,120
+design_study,v6_prgen,path relinking and population restarts,120
+design_study,v6_nocoop600,"independent walkers, 600 s",600
+design_study,v7_swap0,add and drop moves only,120
+design_study,v7_swap50,swap moves in half of the walkers,120
+design_study,v7_longtenure,tabu tenure ×3 to ×15,120
+design_study,v8_random,random initial solutions,120
+design_study,v8_bigpert,perturbation strength 30 to 70%,120
+design_study,v9_fscale_wide,forfeit costs scaled by 0.6 to 1.5,120

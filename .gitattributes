@@ -1,0 +1,5 @@
+# every file is written with LF line endings; data and solutions are kept byte for byte, so the SHA-256 values
+# of PUBLIC_EXPORT_MANIFEST.json hold on any checkout
+* text=auto eol=lf
+data/** -text
+solutions/** -text

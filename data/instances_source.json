@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/neteasefans/knapsack-problem-with-forfeits-",
+  "commit": "85ff5e1c28df953f806566e58584b3551ab67261",
+  "archive": "kpf_soco_instances.zip",
+  "url": "https://raw.githubusercontent.com/neteasefans/knapsack-problem-with-forfeits-/85ff5e1c28df953f806566e58584b3551ab67261/kpf_soco_instances.zip",
+  "readme": "kpf_soco_instances/readme.txt",
+  "reference": "Capobianco, G., D'Ambrosio, C., Pavone, L., Raiconi, A., Vitale, G., Sebastiano, F., 2022. A hybrid metaheuristic for the knapsack problem with forfeits. Soft Computing 26, 749-762. https://doi.org/10.1007/s00500-021-06331-x",
+  "archive_sha256": "2452aeb932ed6460a3f4d11196dbd71ae74d42300d9515cc423e0108e42daedf",
+  "archive_bytes": 2959849
+}
